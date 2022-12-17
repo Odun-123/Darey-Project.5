@@ -28,7 +28,7 @@ Next step was I had to configure the security group of mysql server instance to 
 
 Step 6: Connecting to mysql server from mysql client
 
-Once the user had been created, next was to connect to the myql server instance from the mysql client instance. To do that, I simply ran the code below: 'mysql -u remote_user -h 54.175.139.3 -p'
+Once the user had been created, next was to connect to the myql server instance from the mysql client instance. To do that, I simply ran the code below: 'mysql -u remote_user -h 172.31.83.161 -p'
 
 After that, i ran the code below: 'show databases;
 
