@@ -20,3 +20,18 @@ In order to configure mysql server instance to allow coonnections from remote ho
 
 While inside this file, I replaced the bind address from the default '127.0.0.1' to '0.0.0.
 
+![Pro5-bind address](https://user-images.githubusercontent.com/117018714/208266772-29b042c2-05ae-49f0-a37f-bf6a712df0d3.png)
+
+Step 4: Configuring the security group of mysql server instance to allow the ip address of mysql client with port 3300
+
+Next step was I had to configure the security group of mysql server instance to allow the ip address of mysql client instance.
+
+Step 6: Connecting to mysql server from mysql client
+
+Once the user had been created, next was to connect to the myql server instance from the mysql client instance. To do that, I simply ran the code below: 'mysql -u remote_user -h 54.175.139.3 -p'
+
+After that, i ran the code below: 'show databases;'
+
+
+
+If you are presented with the image below, then you have just completed the project.
