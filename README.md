@@ -30,8 +30,6 @@ Step 6: Connecting to mysql server from mysql client
 
 Once the user had been created, next was to connect to the myql server instance from the mysql client instance. To do that, I simply ran the code below: 'mysql -u remote_user -h 54.175.139.3 -p'
 
-After that, i ran the code below: 'show databases;'
+After that, i ran the code below: 'show databases;
 
-
-
-If you are presented with the image below, then you have just completed the project.
+![pro5-database result](https://user-images.githubusercontent.com/117018714/208268001-dfe7d926-9fec-4e5a-a757-0baa683cde60.png)
